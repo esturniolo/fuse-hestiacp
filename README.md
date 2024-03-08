@@ -47,3 +47,4 @@ find . -type f -exec chmod 644 {} \;
 ```
 
 [Fuente](https://forum.hestiacp.com/t/wordpress-permissions-folders/3565)
+
