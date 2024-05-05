@@ -48,3 +48,10 @@ find . -type f -exec chmod 644 {} \;
 
 [Fuente](https://forum.hestiacp.com/t/wordpress-permissions-folders/3565)
 
+---
+### Dump de DB
+
+Para hacer un restore de la db, es preferible hacerlo por la terminal que por la GUI. No se cuelga y es más rápido.
+
+`mysql -u [DATABASE USER] -p [DATABASE NAME]  < acba-101101-lol.sql`
+
